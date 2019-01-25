@@ -1,6 +1,6 @@
 /*
  *
- * @licstart  The following is the entire license notice for the 
+ * @licstart  The following is the entire license notice for the
  *  JavaScript code in this page.
  *
  * Copyright (C) 2018 Jaume Fuster i Claris
@@ -33,22 +33,35 @@
 
 // div.innerHTML : {a.innerHTML : a.href}
 var sites = {
-			"Chan": {
-				"4/wsg/"			: "https://boards.4chan.org/wsg/",
-				"4/b/"				: "https://boards.4chan.org/b/",
-				"4/sci/"			: "https://boards.4chan.org/sci/",
-				"8/b/"				: "https://8ch.net/b/index.html"
+			"School": {
+				"galaxy"			: "https://galaxy.utdallas.edu",
+				"elearning"		: "https://elearning.utdallas.edu",
+				"outlook"			: "https://outlook.com",
+				"onedrive"	:"https://onedrive.com",
+				"mastering physics"		: "https://pi.pearsoned.com/v1/piapi/piui/signin?client_id=6Q7lNcg9CxMhKqXBPUidpp7BVrBjMFzI&okurl=https:%2F%2Fwww.masteringphysics.com%2Flogin&siteid=6028&regurl=https:%2F%2Fwww.pearsonmylabandmastering.com%2Fnorthamerica%2Fmasteringphysics%2F"
 			},
-			"Social": {
-				"GitLab"			: "https://gitlab.com/Capuno",
-				"Racó Català"		: "https://www.racocatala.cat/forums",
-				"YouTube"			: "https://www.youtube.com/",
-				"Twitter"			: "https://twitter.com/"
+			"Entertainment": {
+				"youtube"			: "https://youtube.com",
+				"netflix"		: "netflix.com",
+				"reddit"			: "Reddit.com",
+				"hulu"			: "https://hulu.com/"
 			},
-			"E-Mail": {
-				"GMail"				: "https://mail.google.com/mail/u/0/",
-				"Hotmail"			: "https://outlook.live.com/owa/",
-				"Zoho Mail"			: "https://mail.zoho.eu/zm/#mail/folder/inbox"
+			"Google Apps": {
+				"gmail"				: "https://mail.google.com/mail/u/0/",
+				"drive"			: "drive.google.com",
+				"calendar"	:"calendar.google.com",
+				"keep"			: "https://keep.google.com"
+
+			},
+			"My stuff": {
+				"github"		: "https://github.com/ayushagarwal0316",
+				"linkedin"				: "https://linkedin.com/",
+				"rice"				: "https://rice.capuno.cat/"
+			},
+			"News": {
+				"Financial Times"	: "https://www.ft.com/",
+				"Vilaweb"			: "https://www.vilaweb.cat/",
+				"El Punt Avui"		: "http://www.elpuntavui.cat/barcelona.html"
 			},
 			"Games": { // To find the game ID check the url in the store page or the community page
 				"CS:GO"				: "steam://run/730",
@@ -57,17 +70,6 @@ var sites = {
 				"Insurgency"		: "steam://run/222880",
 				"West of Loathing"	: "steam://run/597220",
 				"POSTAL 2"			: "steam://run/223470"
-			},
-			"News": {
-				"Financial Times"	: "https://www.ft.com/",
-				"Vilaweb"			: "https://www.vilaweb.cat/",
-				"El Punt Avui"		: "http://www.elpuntavui.cat/barcelona.html"
-			},
-			"My stuff": {
-				"capuno.cat"		: "https://capuno.cat/",
-				"gnu.cat"			: "https://gnu.cat/",
-				"life"				: "https://life.capuno.cat/",
-				"rice"				: "https://rice.capuno.cat/"
 			}
 		};
 
