@@ -70,7 +70,7 @@ var sites = {
 		};
 
 var search = "https://google.com/";		// The search engine
-var query  = "q";							// The query variable name for the search engine
+var query  = "search?source=hp&ei=";							// The query variable name for the search engine
 
 var pivotmatch = 0;
 var totallinks = 0;
