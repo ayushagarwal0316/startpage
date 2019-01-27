@@ -33,6 +33,24 @@
 
 // div.innerHTML : {a.innerHTML : a.href}
 var sites = {
+	"Google Apps": {
+		"gmail"				: "https://mail.google.com/mail/u/0/",
+		"drive"			: "drive.google.com",
+		"calendar"	:"calendar.google.com",
+		"keep"			: "https://keep.google.com"
+	},
+	"My stuff": {
+		"instagram"	: "https://instagram.com",
+		"twitter"		:	"https://twitter.com",
+		"github"		: "https://github.com/ayushagarwal0316",
+		"linkedin"	: "https://linkedin.com/"
+	},
+	"Entertainment": {
+				"youtube"			: "https://youtube.com",
+				"netflix"		: "https://netflix.com",
+				"hulu"			: "https://hulu.com/",
+				"reddit"			: "https://reddit.com"
+			},
 			"School": {
 				"galaxy"			: "https://galaxy.utdallas.edu",
 				"elearning"		: "https://elearning.utdallas.edu",
@@ -40,40 +58,18 @@ var sites = {
 				"onedrive"	:"https://onedrive.com",
 				"mastering physics"		: "https://pi.pearsoned.com/v1/piapi/piui/signin?client_id=6Q7lNcg9CxMhKqXBPUidpp7BVrBjMFzI&okurl=https:%2F%2Fwww.masteringphysics.com%2Flogin&siteid=6028&regurl=https:%2F%2Fwww.pearsonmylabandmastering.com%2Fnorthamerica%2Fmasteringphysics%2F"
 			},
-			"Entertainment": {
-				"youtube"			: "https://youtube.com",
-				"netflix"		: "netflix.com",
-				"reddit"			: "Reddit.com",
-				"hulu"			: "https://hulu.com/"
-			},
-			"Google Apps": {
-				"gmail"				: "https://mail.google.com/mail/u/0/",
-				"drive"			: "drive.google.com",
-				"calendar"	:"calendar.google.com",
-				"keep"			: "https://keep.google.com"
-
-			},
-			"My stuff": {
-				"github"		: "https://github.com/ayushagarwal0316",
-				"linkedin"				: "https://linkedin.com/",
-				"rice"				: "https://rice.capuno.cat/"
-			},
 			"News": {
-				"Financial Times"	: "https://www.ft.com/",
-				"Vilaweb"			: "https://www.vilaweb.cat/",
-				"El Punt Avui"		: "http://www.elpuntavui.cat/barcelona.html"
+				"flipboard"		: "https://flipboard.com/",
+ 				"cnn"					: "https://www.cnn.com/",
+ 				"google news"	: "https://news.google.com/"
 			},
-			"Games": { // To find the game ID check the url in the store page or the community page
-				"CS:GO"				: "steam://run/730",
-				"Besiege"			: "steam://run/346010",
-				"Rust"				: "steam://run/252490",
-				"Insurgency"		: "steam://run/222880",
-				"West of Loathing"	: "steam://run/597220",
-				"POSTAL 2"			: "steam://run/223470"
+			"Software": { // To find the game ID check the url in the store page or the community page
+	 			"CS:GO"							: "steam://run/730",
+				"Rainbow Six Siege"	: "steam://run/359550",
 			}
 		};
 
-var search = "https://duckduckgo.com/";		// The search engine
+var search = "https://google.com/";		// The search engine
 var query  = "q";							// The query variable name for the search engine
 
 var pivotmatch = 0;
