@@ -35,8 +35,8 @@
 var sites = {
 	"Google Apps": {
 		"gmail"				: "https://mail.google.com/mail/u/0/",
-		"drive"			: "drive.google.com",
-		"calendar"	:"calendar.google.com",
+		"drive"			: "https://drive.google.com",
+		"calendar"	:"https://calendar.google.com",
 		"keep"			: "https://keep.google.com"
 	},
 	"My stuff": {
