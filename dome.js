@@ -35,13 +35,14 @@
 var sites = {
 	"Google Apps": {
 		"gmail"				: "https://mail.google.com/mail/u/0/",
+		"messages"	: "https://messages.android.com",
 		"drive"			: "https://drive.google.com",
 		"calendar"	:"https://calendar.google.com",
 		"keep"			: "https://keep.google.com"
 	},
 	"My stuff": {
-		"instagram"	: "https://instagram.com",
 		"twitter"		:	"https://twitter.com",
+		"instagram"	:"https://instagram.com",
 		"github"		: "https://github.com/ayushagarwal0316",
 		"linkedin"	: "https://linkedin.com/",
 		"website"	:"https://ayushagarwal0316.github.io"
@@ -50,7 +51,8 @@ var sites = {
 				"youtube"			: "https://youtube.com",
 				"netflix"		: "https://netflix.com",
 				"hulu"			: "https://hulu.com/",
-				"reddit"			: "https://reddit.com"
+				"reddit"			: "https://reddit.com",
+				"fb messenger":"https://messenger.com"
 			},
 			"School": {
 				"galaxy"			: "https://galaxy.utdallas.edu",
