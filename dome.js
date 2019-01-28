@@ -43,7 +43,8 @@ var sites = {
 		"instagram"	: "https://instagram.com",
 		"twitter"		:	"https://twitter.com",
 		"github"		: "https://github.com/ayushagarwal0316",
-		"linkedin"	: "https://linkedin.com/"
+		"linkedin"	: "https://linkedin.com/",
+		"website"	:"https://ayushagarwal0316.github.io"
 	},
 	"Entertainment": {
 				"youtube"			: "https://youtube.com",
@@ -70,7 +71,7 @@ var sites = {
 		};
 
 var search = "https://google.com/";		// The search engine
-var query  = "search?source=hp&ei=";							// The query variable name for the search engine
+var query  = "q";							// The query variable name for the search engine
 
 var pivotmatch = 0;
 var totallinks = 0;
