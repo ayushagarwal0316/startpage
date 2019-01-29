@@ -38,7 +38,8 @@ var sites = {
 		"messages"	: "https://messages.android.com",
 		"drive"			: "https://drive.google.com",
 		"calendar"	:"https://calendar.google.com",
-		"keep"			: "https://keep.google.com"
+		"keep"			: "https://keep.google.com",
+		"hangouts"	:"https://hangouts.google.com"
 	},
 	"My stuff": {
 		"twitter"		:	"https://twitter.com",
