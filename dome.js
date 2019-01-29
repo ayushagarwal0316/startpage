@@ -58,8 +58,9 @@ var sites = {
 				"galaxy"			: "https://galaxy.utdallas.edu",
 				"elearning"		: "https://elearning.utdallas.edu",
 				"outlook"			: "https://outlook.com",
-				"onedrive"	:"https://onedrive.com",
-				"mastering physics"		: "https://pi.pearsoned.com/v1/piapi/piui/signin?client_id=6Q7lNcg9CxMhKqXBPUidpp7BVrBjMFzI&okurl=https:%2F%2Fwww.masteringphysics.com%2Flogin&siteid=6028&regurl=https:%2F%2Fwww.pearsonmylabandmastering.com%2Fnorthamerica%2Fmasteringphysics%2F"
+				"zybooks"	:"https://learn.zybooks.com",
+				"mastering physics"		: "https://pi.pearsoned.com/v1/piapi/piui/signin?client_id=6Q7lNcg9CxMhKqXBPUidpp7BVrBjMFzI&okurl=https:%2F%2Fwww.masteringphysics.com%2Flogin&siteid=6028&regurl=https:%2F%2Fwww.pearsonmylabandmastering.com%2Fnorthamerica%2Fmasteringphysics%2F",
+				"linear algebra"	:"http://www.utdallas.edu/~yxz180069/algebra19spring/algebra.html"
 			},
 			"News": {
 				"flipboard"		: "https://flipboard.com/",
@@ -67,12 +68,14 @@ var sites = {
  				"google news"	: "https://news.google.com/"
 			},
 			"Software": { // To find the game ID check the url in the store page or the community page
-	 			"CS:GO"							: "steam://run/730",
-				"Rainbow Six Siege"	: "steam://run/359550",
+	 			"cs:go"							: "steam://run/730",
+				"rainbow six siege"	: "steam://run/359550",
+				"spotify"	:"spotify:",
+				"github desktop"	:"github:"
 			}
 		};
 
-var search = "https://google.com/";		// The search engine
+var search = "https://google.com/search";		// The search engine
 var query  = "q";							// The query variable name for the search engine
 
 var pivotmatch = 0;
