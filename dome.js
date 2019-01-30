@@ -63,10 +63,11 @@ var sites = {
 				"mastering physics"		: "https://pi.pearsoned.com/v1/piapi/piui/signin?client_id=6Q7lNcg9CxMhKqXBPUidpp7BVrBjMFzI&okurl=https:%2F%2Fwww.masteringphysics.com%2Flogin&siteid=6028&regurl=https:%2F%2Fwww.pearsonmylabandmastering.com%2Fnorthamerica%2Fmasteringphysics%2F",
 				"linear algebra"	:"http://www.utdallas.edu/~yxz180069/algebra19spring/algebra.html"
 			},
-			"News": {
+			"Misc": {
 				"flipboard"		: "https://flipboard.com/",
  				"cnn"					: "https://www.cnn.com/",
- 				"google news"	: "https://news.google.com/"
+ 				"groupme"	: "https://web.groupme.com/",
+				"photos"	:"https://photos.google.com"
 			},
 			"Software": { // To find the game ID check the url in the store page or the community page
 	 			"cs:go"							: "steam://run/730",
