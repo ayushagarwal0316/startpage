@@ -46,6 +46,7 @@ var sites = {
 		"instagram"	:"https://instagram.com",
 		"github"		: "https://github.com/ayushagarwal0316",
 		"linkedin"	: "https://linkedin.com/",
+		"aws"				:	"https://console.aws.amazon.com",
 		"website"	:"https://ayushagarwal0316.github.io"
 	},
 	"Entertainment": {
@@ -64,7 +65,8 @@ var sites = {
 				"linear algebra"	:"http://www.utdallas.edu/~yxz180069/algebra19spring/algebra.html"
 			},
 			"Misc": {
-				"flipboard"		: "https://flipboard.com/",
+				"edx"		: "https://courses.edx.org/",
+ 				"flipboard"		: "https://flipboard.com/",
  				"cnn"					: "https://www.cnn.com/",
  				"groupme"	: "https://web.groupme.com/",
 				"photos"	:"https://photos.google.com"
@@ -131,7 +133,7 @@ function matchLinks(regex = prevregexp) {
 	document.getElementById("main").style.height = document.getElementById("main").children[0].offsetHeight+"px";
 }
 
-document.onkeydown = function(e) {
+(document.onkeydown) = function(e) {
 	switch (e.keyCode) {
 		case 38:
 			pivotmatch = pivotmatch >= 0 ? 0 : pivotmatch + 1;
