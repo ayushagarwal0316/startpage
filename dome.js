@@ -54,7 +54,7 @@ var sites = {
 				"netflix"		: "https://netflix.com",
 				"hulu"			: "https://hulu.com/",
 				"reddit"			: "https://reddit.com",
-				"fb messenger":"https://messenger.com"
+				"play music":"https://play.google.com/music/listen?u=0#/home"
 			},
 			"School": {
 				"galaxy"			: "https://galaxy.utdallas.edu",
