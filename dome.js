@@ -59,11 +59,11 @@ var sites = {
 			"School": {
 				"galaxy"			: "https://galaxy.utdallas.edu",
 				"elearning"		: "https://elearning.utdallas.edu",
-				"outlook"			: "https://outlook.com",
+				"outlook"			: "https://outlook.office.com",
 				"zybooks"	:"https://learn.zybooks.com",
-				"mastering physics"		: "https://pi.pearsoned.com/v1/piapi/piui/signin?client_id=6Q7lNcg9CxMhKqXBPUidpp7BVrBjMFzI&okurl=https:%2F%2Fwww.masteringphysics.com%2Flogin&siteid=6028&regurl=https:%2F%2Fwww.pearsonmylabandmastering.com%2Fnorthamerica%2Fmasteringphysics%2F",
-				"linear algebra"	:"http://www.utdallas.edu/~yxz180069/algebra19spring/algebra.html"
-			},
+				"epics edusource"		: "https://utdepics.edusourcedapp.com/project/details/5061",
+				"piazza"	:"https://piazza.com/class/jz8juihvs7w2mz?cid=7"
+				},
 			"Misc": {
 				"edx"		: "https://courses.edx.org/",
  				"flipboard"		: "https://flipboard.com/",
