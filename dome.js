@@ -53,23 +53,25 @@ var sites = {
 		"reddit"	:	"https://reddit.com",
 		"facebook"	:	"https://facebook.com"
 	},
-	"School": {
+	"school": {
 		"galaxy"	:	"https://galaxy.utdallas.edu",
 		"elearning"	:	"https://elearning.utdallas.edu",
 		"outlook"	:	"https://outlook.office.com",
 		"piazza"	:	"https://piazza.com/class/jz8juihvs7w2mz?cid=7"
 		},
-	"Misc": {
+	"misc": {
 		"monkeytype":	"https://monkeytype.com/",
 		"aws"		:	"https://console.aws.amazon.com",
 		"amazon"	:	"https://www.amazon.com/",
 		"groupme"	:	"https://web.groupme.com/",
 		"photos"	:	"https://photos.google.com"
 	},
-	"Software": { // To find the game ID check the url in the store page or the community page
-		"cs:go"				: 	"steam://run/730",
-		"rainbow six siege"	: 	"steam://run/359550",
-		"spotify"			:	"spotify:"
+	"cars": { // To find the game ID check the url in the store page or the community page
+		"carsandbids"	: 	"https://carsandbids.com",
+		"fcpeuro"		:	"https://www.fcpeuro.com"
+		"ecstuning"		: 	"https://ecstuning.com",
+		"e46fanatics"	:	"https://www.e46fanatics.com/",
+		"e90post"		:	"https://e90post.com/forums/index.php"
 	}
 };
 
