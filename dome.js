@@ -68,7 +68,7 @@ var sites = {
 	},
 	"cars": { // To find the game ID check the url in the store page or the community page
 		"carsandbids"	: 	"https://carsandbids.com",
-		"fcpeuro"		:	"https://www.fcpeuro.com"
+		"fcpeuro"		:	"https://www.fcpeuro.com",
 		"ecstuning"		: 	"https://ecstuning.com",
 		"e46fanatics"	:	"https://www.e46fanatics.com/",
 		"e90post"		:	"https://e90post.com/forums/index.php"
