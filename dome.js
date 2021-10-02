@@ -33,51 +33,45 @@
 
 // div.innerHTML : {a.innerHTML : a.href}
 var sites = {
-	"Google Apps": {
-		"gmail"				: "https://mail.google.com/mail/u/0/",
-		"messages"	: "https://messages.android.com",
-		"drive"			: "https://drive.google.com",
-		"calendar"	:"https://calendar.google.com",
-		"keep"			: "https://keep.google.com",
-		"hangouts"	:"https://hangouts.google.com"
+	"google": {
+		"gmail"		:	"https://mail.google.com/mail/u/0/",
+		"messages"	: 	"https://messages.android.com",
+		"drive"		:	"https://drive.google.com",
+		"calendar"	:	"https://calendar.google.com",
+		"keep"		:	"https://keep.google.com",
 	},
-	"My stuff": {
-		"twitter"		:	"https://twitter.com",
-		"instagram"	:"https://instagram.com",
-		"github"		: "https://github.com/ayushagarwal0316",
-		"linkedin"	: "https://linkedin.com/",
-		"aws"				:	"https://console.aws.amazon.com",
-		"website"	:"https://ayushagarwal0316.github.io"
+	"stuff": {
+		"twitter"	:	"https://twitter.com",
+		"instagram"	:	"https://instagram.com",
+		"github"	:	"https://github.com/ayushagarwal0316",
+		"linkedin"	:	"https://linkedin.com/",
+		"website"	:	"https://ayushagarwal0316.github.io"
 	},
-	"Entertainment": {
-				"youtube"			: "https://youtube.com",
-				"netflix"		: "https://netflix.com",
-				"hulu"			: "https://hulu.com/",
-				"reddit"			: "https://reddit.com",
-				"play music":"https://play.google.com/music/listen?u=0#/home"
-			},
-			"School": {
-				"galaxy"			: "https://galaxy.utdallas.edu",
-				"elearning"		: "https://elearning.utdallas.edu",
-				"outlook"			: "https://outlook.office.com",
-				"zybooks"	:"https://learn.zybooks.com",
-				"epics edusource"		: "https://utdepics.edusourcedapp.com/project/details/5061",
-				"piazza"	:"https://piazza.com/class/jz8juihvs7w2mz?cid=7"
-				},
-			"Misc": {
-				"edx"		: "https://courses.edx.org/",
- 				"flipboard"		: "https://flipboard.com/",
- 				"cnn"					: "https://www.cnn.com/",
- 				"groupme"	: "https://web.groupme.com/",
-				"photos"	:"https://photos.google.com"
-			},
-			"Software": { // To find the game ID check the url in the store page or the community page
-	 			"cs:go"							: "steam://run/730",
-				"rainbow six siege"	: "steam://run/359550",
-				"spotify"	:"spotify:",
-				"github desktop"	:"github:"
-			}
-		};
+	"entertainment": {
+		"youtube"	:	"https://youtube.com",
+		"netflix"	:	"https://netflix.com",
+		"reddit"	:	"https://reddit.com",
+		"facebook"	:	"https://facebook.com"
+	},
+	"School": {
+		"galaxy"	:	"https://galaxy.utdallas.edu",
+		"elearning"	:	"https://elearning.utdallas.edu",
+		"outlook"	:	"https://outlook.office.com",
+		"piazza"	:	"https://piazza.com/class/jz8juihvs7w2mz?cid=7"
+		},
+	"Misc": {
+		"monkeytype":	"https://monkeytype.com/",
+		"aws"		:	"https://console.aws.amazon.com",
+		"amazon"	:	"https://www.amazon.com/",
+		"groupme"	:	"https://web.groupme.com/",
+		"photos"	:	"https://photos.google.com"
+	},
+	"Software": { // To find the game ID check the url in the store page or the community page
+		"cs:go"				: 	"steam://run/730",
+		"rainbow six siege"	: 	"steam://run/359550",
+		"spotify"			:	"spotify:"
+	}
+};
 
 var search = "https://google.com/search";		// The search engine
 var query  = "q";							// The query variable name for the search engine
